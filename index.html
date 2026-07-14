@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Sitio web de XolMet, proyecto de biodigestor modular con monitoreo inteligente y enfoque sostenible."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>XolMet</title>
+</head>
+
+
+<body>
+
+    <!-- ==================================
+         ENCABEZADO
+    =================================== -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <a
+                href="#hero"
+                class="logo"
+                aria-label="Ir al inicio de XolMet"
+            >
+                🔥
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#hero">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#acerca">Acerca de XolMet</a>
+                </li>
+
+                <li>
+                    <a href="#productos">Productos</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==================================
+             PORTADA
+        =================================== -->
+
+        <section class="hero" id="hero">
+
+            <div class="hero-contenido">
+
+                <h1>¡Hola!</h1>
+
+                <p>
+                    Qué gusto verte
+                </p>
+
+            </div>
+
+            <img
+                class="hero-imagen"
+                src="../Picture/Xologo.png"
+                alt="Presentación principal de XolMet"
+            >
+
+        </section>
+
+
+        <!-- ==================================
+             ACERCA DE XOLMET
+        =================================== -->
+
+        <section class="acerca-xolmet" id="acerca">
+
+            <h2>Acerca de XolMet</h2>
+
+            <div class="lista-categorias">
+
+                <!-- MISIÓN -->
+
+                <button
+                    type="button"
+                    class="categoria-item abrir-modal"
+                    data-titulo="Misión"
+                    data-imagen="../Picture/Xologo.png"
+                    data-descripcion="Desarrollar soluciones sostenibles que permitan transformar residuos orgánicos en energía renovable y biofertilizante, mediante un biodigestor modular, accesible y equipado con monitoreo inteligente."
+                >
+
+                    <figure>
+
+                        <div
+                            class="biodigestor"
+                            aria-label="Misión de XolMet"
+                        >
+                            🎯
+                        </div>
+
+                        <figcaption>
+                            Misión
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- VISIÓN -->
+
+                <button
+                    type="button"
+                    class="categoria-item abrir-modal"
+                    data-titulo="Visión"
+                    data-imagen="../Picture/Xologo.png"
+                    data-descripcion="Ser una propuesta reconocida por impulsar el aprovechamiento responsable de los residuos orgánicos, facilitando el acceso a tecnologías limpias y contribuyendo al desarrollo sostenible de hogares, productores y comunidades."
+                >
+
+                    <figure>
+
+                        <div
+                            class="biofertilizante"
+                            aria-label="Visión de XolMet"
+                        >
+                            👁️
+                        </div>
+
+                        <figcaption>
+                            Visión
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- VALORES -->
+
+                <button
+                    type="button"
+                    class="categoria-item abrir-modal"
+                    data-titulo="Valores"
+                    data-imagen="../Picture/Xologo.png"
+                    data-descripcion="Sustentabilidad, innovación, responsabilidad ambiental, calidad, seguridad, trabajo en equipo, compromiso social y mejora continua."
+                >
+
+                    <figure>
+
+                        <div
+                            class="manual-usuario"
+                            aria-label="Valores de XolMet"
+                        >
+                            ⚖️
+                        </div>
+
+                        <figcaption>
+                            Valores
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             PRODUCTOS Y BENEFICIOS
+        =================================== -->
+
+        <section class="productos" id="productos">
+
+            <h2>¿Qué ofrecemos?</h2>
+
+            <div class="lista-carrusel">
+
+                <!-- BIODIGESTOR XOLMET -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Biodigestor XolMet"
+                    data-imagen="../Picture/Biodigestor.png"
+                    data-descripcion="El biodigestor XolMet transforma residuos orgánicos en biogás y biofertilizante mediante un proceso de digestión anaerobia. Su diseño modular facilita la instalación, el mantenimiento y la adaptación a distintas necesidades."
+                >
+
+                    <figure>
+
+                        <img
+                            src="../Picture/Biodigestor.png"
+                            alt="Biodigestor XolMet"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Biodigestor XolMet
+                            </h3>
+
+                            <p class="producto-precio">
+                                $6,000.00
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- PRODUCCIÓN DE BIOGÁS -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Producción de biogás"
+                    data-imagen="https://www.staffstraining.co.uk/wp-content/uploads/2025/09/Stay-Gas-Safe-at-Home.jpg"
+                    data-descripcion="Durante la digestión anaerobia se genera biogás, una fuente de energía renovable que puede aprovecharse para cocinar o generar calor, reduciendo parcialmente el consumo de combustibles convencionales."
+                >
+
+                    <figure>
+
+                        <img
+                            src="https://www.staffstraining.co.uk/wp-content/uploads/2025/09/Stay-Gas-Safe-at-Home.jpg"
+                            alt="Producción de biogás"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Producción de biogás
+                            </h3>
+
+                            <p class="producto-precio">
+                                Beneficio del biodigestor
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- BIOFERTILIZANTE -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Biofertilizante"
+                    data-imagen="https://www.lifeder.com/wp-content/uploads/2020/07/crecimiento-de-una-planta-lifeder-1.jpg"
+                    data-descripcion="El proceso genera un efluente orgánico conocido como biol, que puede utilizarse como biofertilizante. Este producto aporta nutrientes al suelo y favorece el desarrollo de los cultivos."
+                >
+
+                    <figure>
+
+                        <img
+                            src="https://www.lifeder.com/wp-content/uploads/2020/07/crecimiento-de-una-planta-lifeder-1.jpg"
+                            alt="Producción de biofertilizante"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Biofertilizante
+                            </h3>
+
+                            <p class="producto-precio">
+                                Beneficio del biodigestor
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- MONITOREO -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Monitoreo en tiempo real"
+                    data-imagen="../Picture/Display.png"
+                    data-descripcion="El sistema de monitoreo permite consultar variables relevantes para el funcionamiento del biodigestor, facilitando la supervisión del proceso y la detección de condiciones que requieren atención."
+                >
+
+                    <figure>
+
+                        <img
+                            src="../Picture/Display.png"
+                            alt="Sistema de monitoreo de XolMet"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Monitoreo en tiempo real
+                            </h3>
+
+                            <p class="producto-precio">
+                                Supervisión del biodigestor
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- AHORRO ECONÓMICO -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Ahorro económico"
+                    data-imagen="https://media.mdzol.com/p/7e7758d380efa620f2260ff893ca58f8/adjuntos/373/imagenes/000/898/0000898661/1200x675/smart/foto-pexels.jpg"
+                    data-descripcion="El aprovechamiento del biogás y del biofertilizante puede disminuir gastos relacionados con combustibles y fertilizantes convencionales, generando beneficios económicos durante la operación del sistema."
+                >
+
+                    <figure>
+
+                        <img
+                            src="https://media.mdzol.com/p/7e7758d380efa620f2260ff893ca58f8/adjuntos/373/imagenes/000/898/0000898661/1200x675/smart/foto-pexels.jpg"
+                            alt="Ahorro económico"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Ahorro económico
+                            </h3>
+
+                            <p class="producto-precio">
+                                Beneficio del biodigestor
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+
+                <!-- REDUCCIÓN DE HUELLA DE CARBONO -->
+
+                <button
+                    type="button"
+                    class="producto-item abrir-modal"
+                    data-titulo="Reducción de la huella de carbono"
+                    data-imagen="https://3.bp.blogspot.com/-EQ9xYinUbhI/Tc111td43mI/AAAAAAAAACo/7IrjiOPhSKM/s1600/contaminacion.jpg"
+                    data-descripcion="El tratamiento controlado de los residuos orgánicos reduce su disposición inadecuada y permite aprovechar el biogás generado. Esto contribuye a disminuir emisiones y mejorar la gestión ambiental de los residuos."
+                >
+
+                    <figure>
+
+                        <img
+                            src="https://3.bp.blogspot.com/-EQ9xYinUbhI/Tc111td43mI/AAAAAAAAACo/7IrjiOPhSKM/s1600/contaminacion.jpg"
+                            alt="Reducción de emisiones contaminantes"
+                        >
+
+                        <figcaption>
+
+                            <h3 class="producto-titulo">
+                                Reducción de la huella de carbono
+                            </h3>
+
+                            <p class="producto-precio">
+                                Beneficio ambiental
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================
+             CONTACTO
+        =================================== -->
+
+        <section class="contacto" id="contacto">
+
+            <h2>
+                ¿Tienes algún comentario o duda?
+            </h2>
+
+            <form class="formulario-contacto">
+
+                <div class="campo-formulario">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo-formulario">
+
+                    <label for="correo">
+                        Correo
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo-formulario">
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================
+         PIE DE PÁGINA
+    =================================== -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 XolMet. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <!-- ==================================
+         MODAL DINÁMICO
+
+         Este es el único modal de la página.
+         JavaScript cambia su título, imagen
+         y descripción según la tarjeta elegida.
+    =================================== -->
+
+    <div
+        class="modal"
+        id="modal"
+        aria-hidden="true"
+    >
+
+        <div class="modal-contenido">
+
+            <button
+                type="button"
+                class="cerrar-modal"
+                aria-label="Cerrar ventana"
+            >
+                &times;
+            </button>
+
+
+            <h2 id="titulo-modal">
+                Información de XolMet
+            </h2>
+
+
+            <img
+                id="imagen-modal"
+                src="../Picture/Xologo.png"
+                alt="Información de XolMet"
+            >
+
+
+            <p id="descripcion-modal">
+                Selecciona una opción para conocer más información.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
